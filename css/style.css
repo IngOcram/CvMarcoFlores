@@ -1,0 +1,32 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.site-header.inicio {
+
+    background-color: rgb(130, 186, 238);
+    background-position: center center;
+    min-height: 7.5rem;
+
+}
+
+.barra {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    align-items: center;
+
+}
+
+
