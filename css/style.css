@@ -8,6 +8,15 @@ body {
     
 }
 
+img {
+
+    max-width: 100%;
+    height: 62.5rem;
+    width: 50rem;
+}
+
+
+
 .contenedor {
 
     max-width: 120rem;
@@ -62,4 +71,12 @@ h1 {
     margin: 0;
 }
 
+.contendor-central {
+    display: flex;
+    justify-content: space-between;
+}
 
+.footer-final {
+    display: flex;
+    justify-content: space-between;
+}
