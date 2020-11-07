@@ -14,6 +14,13 @@ body {
     margin: 0 auto;
 }
 
+.seccion {
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
 .site-header.inicio {
 
     background-color: rgb(130, 186, 238);
