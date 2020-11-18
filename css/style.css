@@ -10,7 +10,7 @@ body {
 
 img {
 
-    max-width: 100%;
+    /*max-width: 100%; */
     height: 62.5rem;
     width: 50rem;
 }
@@ -76,7 +76,37 @@ h1 {
     justify-content: space-between;
 }
 
+.contendor-central p{
+
+
+    margin-left: 3rem;
+    text-align: justify;
+}
+
+.contendor-central h2 {
+
+    margin-left: 3rem;
+}
+
+
+.footer-datos {
+    border: 0.5rem solid black;
+}
+
+
 .footer-final {
     display: flex;
     justify-content: space-between;
+}
+
+.imagen-github img{
+
+    width: 15rem;
+    height: 15rem;
+}
+
+.imagen-linkedin img {
+
+    width: 15rem;
+    height: 15rem;
 }
