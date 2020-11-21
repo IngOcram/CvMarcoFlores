@@ -16,8 +16,8 @@ body {
 img {
 
     /*max-width: 100%; */
-    height: 62.5rem;
-    width: 50rem;
+    height: 80rem;
+    width: 60rem;
 }
 
 
@@ -37,7 +37,7 @@ img {
 
 .site-header.inicio {
 
-    background-color: rgb(12, 13, 14);
+    background-color: #525252;
     background-position: center center;
     min-height: 7.5rem;
 
@@ -79,6 +79,7 @@ h1 {
 .contendor-central {
     display: flex;
     justify-content: space-between;
+    padding: 8rem 0;
 }
 
 .contendor-central p{
@@ -86,6 +87,10 @@ h1 {
 
     margin-left: 3rem;
     text-align: justify;
+    background-color: #525252;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white;
 }
 
 .contendor-central h2 {
@@ -93,25 +98,36 @@ h1 {
     margin-left: 3rem;
 }
 
-
-.footer-datos {
-    border: 0.5rem solid black;
+.site-footer {
+    background-color: #525252;
+    margin: 0;
 }
 
+.contenedor-footer {
 
-.footer-final {
+    padding: 3rem 0;
     display: flex;
     justify-content: space-between;
 }
 
-.imagen-github img{
-
-    width: 15rem;
-    height: 15rem;
+.copyright {
+    margin: 0;
+    color: #ffffff;
+    padding: 3rem 0;
+    
 }
 
-.imagen-linkedin img {
+.imagen-redes .github {
 
-    width: 15rem;
-    height: 15rem;
+    width: 6rem;
+    height: 6rem;
+    padding: 3rem 0;
 }
+
+.imagen-redes .linkedin {
+
+    width: 6rem;
+    height: 6rem;
+    padding: 3rem 0;
+}
+
