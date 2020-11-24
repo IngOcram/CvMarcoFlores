@@ -82,7 +82,7 @@ h1 {
     padding: 8rem 0;
 }
 
-.contendor-central p{
+/*.contendor-central p{
 
 
     margin-left: 3rem;
@@ -91,6 +91,25 @@ h1 {
     padding: 1rem;
     border-radius: 2rem;
     color: white;
+    font-size: 3.5rem;
+}*/
+
+.central-presentacion {
+
+    margin-left: 3rem;
+    text-align: justify;
+    background-color: #525252;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white;
+    font-size: 3.5rem;
+
+}
+
+.central-presentacion h2 {
+    margin: 0;
+    margin-left: 0;
+    font-size: 5rem;
 }
 
 .contendor-central h2 {
