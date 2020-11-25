@@ -94,6 +94,10 @@ h1 {
     font-size: 3.5rem;
 }*/
 
+.central-presentacion h2 {
+    font-weight: 800;
+}
+
 .central-presentacion {
 
     margin-left: 3rem;
@@ -103,6 +107,7 @@ h1 {
     border-radius: 2rem;
     color: white;
     font-size: 2.4rem;
+    font-weight: 300;
 
 }
 
@@ -149,4 +154,22 @@ h1 {
     height: 6rem;
     padding: 3rem 0;
 }
+
+/* Pagina experiencia */
+
+.texto-centrado {
+
+    font-weight: 400;
+    text-align: center;
+    font-size: 5rem;
+
+}
+
+.fechas-puesto {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
