@@ -108,6 +108,7 @@ h1 {
     color: white;
     font-size: 2.4rem;
     font-weight: 300;
+    box-shadow: 10px 5px 5px black;
 
 }
 
@@ -158,6 +159,15 @@ h1 {
 
 /* Pagina experiencia */
 
+.experiencia{
+    background-color: #0097e6;
+    margin: 2rem;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 100;
+    box-shadow: 10px 5px 5px black;
+}
+
 .texto-centrado {
 
     font-weight: 400;
@@ -167,10 +177,24 @@ h1 {
 }
 
 .fechas-puesto {
-    padding: 3rem 0;
+   /* padding: 3rem 0; */
     display: flex;
     justify-content: space-between;
 }
 
+h2 {
+    text-align: left;
+}
+
+.experiencia img {
+    text-align: center;
+    height: 10rem;
+    width: 10rem;
+    padding: 2rem;
+}
+
+.experiencia p {
+    padding: 1rem;
+}
 
 
