@@ -194,7 +194,10 @@ h2 {
 }
 
 .experiencia p {
-    padding: 2rem;
+    /*padding: 3rem;*/
+    margin: 0;
 }
 
-
+ul {
+    padding: 5rem;
+}
