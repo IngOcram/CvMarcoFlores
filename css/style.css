@@ -7,68 +7,51 @@ body {
     font-size: 1.6rem;
     background: url(../img/fondo.jpg) no-repeat center center fixed;
     background-size: cover;
-
-
-    
-    
 }
 
 img {
-
     /*max-width: 100%; */
     height: 80rem;
     width: 60rem;
 }
 
-
-
 .contenedor {
-
     max-width: 120rem;
     margin: 0 auto;
 }
 
 .seccion {
-
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-
 .site-header.inicio {
-
     background-color: #525252;
     background-position: center center;
     min-height: 7.5rem;
-
 }
 
 .barra {
-
     display: flex;
     justify-content: space-between;
     padding-top: 3rem;
     align-items: center;
-
 }
 
 h1 {
-
     color: white;
     text-decoration: none;
     font-size: 1.8rem;
 }
 
 .navegacion a {
-
-    color:white;
+    color: white;
     text-decoration: none;
     font-size: 1.8rem;
     margin-right: 2rem;
 }
 
 .navegacion a:hover {
-
     color: white;
 }
 
@@ -81,6 +64,7 @@ h1 {
     justify-content: space-between;
     padding: 8rem 0;
 }
+
 
 /*.contendor-central p{
 
@@ -99,7 +83,6 @@ h1 {
 }
 
 .central-presentacion {
-
     margin-left: 3rem;
     text-align: justify;
     background-color: #0097e6;
@@ -109,7 +92,6 @@ h1 {
     font-size: 2.4rem;
     font-weight: 300;
     box-shadow: 10px 5px 5px black;
-
 }
 
 .central-presentacion h2 {
@@ -119,7 +101,6 @@ h1 {
 }
 
 .contendor-central h2 {
-
     margin-left: 3rem;
 }
 
@@ -129,7 +110,6 @@ h1 {
 }
 
 .contenedor-footer {
-
     padding: 3rem 0;
     display: flex;
     justify-content: space-between;
@@ -140,26 +120,24 @@ h1 {
     margin: 0;
     color: #ffffff;
     padding: 3rem 0;
-    
 }
 
 .imagen-redes .github {
-
     width: 6rem;
     height: 6rem;
     padding: 3rem 0;
 }
 
 .imagen-redes .linkedin {
-
     width: 6rem;
     height: 6rem;
     padding: 3rem 0;
 }
 
+
 /* Pagina experiencia */
 
-.experiencia{
+.experiencia {
     background-color: #0097e6;
     margin: 2rem;
     color: white;
@@ -169,17 +147,16 @@ h1 {
 }
 
 .texto-centrado {
-
     font-weight: 400;
     text-align: center;
     font-size: 5rem;
-
 }
 
 .fechas-puesto {
-   /* padding: 3rem 0; */
+    /* padding: 3rem 0; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 h2 {
