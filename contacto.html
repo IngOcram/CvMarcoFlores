@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Experiencia Laboral</title>
+    <title>Contacto</title>
 </head>
+
 <body>
     <header class="site-header inicio">
 
@@ -18,7 +20,7 @@
 
                 <h1 class="nombre">Ing Marco Antonio Flores Cortes</h1>
 
-                
+
 
                 <nav class="navegacion">
 
@@ -31,32 +33,70 @@
 
             </div>
 
-            
+
 
         </div>
     </header>
 
-    <main class="contenedor seccion">
+    <h1 class="contacto">Contacto</h1>
 
-        <h1 class="texto-centrado"> Acerca de mi experiencia Profecional</h1>
+    <main class="contenedor seccion contenido-centrado">
+        <h2 class="fw-300 centrar-texto">Llena el Formulario de Contacto</h2>
 
-        <div class="experiencia">
-            <ul class="sisa">
-                <li>SISA Consultores  </li>
-                <div class="fechas-puesto">
-                    <h3>Ingeniero de implementacion</h3>
-                    <p>2019 - a la fecha</p>
+        <form class="FormContacto" action="">
+            <fieldset>
+
+                <legend>Informacion Personal</legend>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" id="Nombre" placeholder="Tu nombre" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Tu correo electronico" required>
+
+                <label for="telefono">Tu telefono</label>
+                <input type="tel" id="telefono" placeholder="Tu telefono" required>
+
+
+
+            </fieldset>
+
+            <input type="submit" value="Enviar" class=" boton boton-azul">
+
+        </form>
+
+        <fieldset>
+            <legend>Mi Contacto</legend>
+
+            <div class="MiContacto">
+
+                <div class="TelCont">
+
+                    <h1>Telefono:</h1>
+                    <p>3310744240</p>
                 </div>
-                <p>Encargado de realizar las implementaciones de las soluciones que vende la empresa (instalación de switches, redes inalámbricas, firewall, antivirus, telefonía, etc).</p>
-            </ul>
 
-        </div>
+                <div class="correo">
+                    <h1 class="Correo">Correo:</h1>
+                    <p class="Correo">marco.flores85@hotmail.com</p>
+                </div>
+
+
+            </div>
+
+
+        </fieldset>
 
 
 
 
 
     </main>
+
+
+
+
+
 
 
 
@@ -77,10 +117,11 @@
                 </a>
 
             </div>
-            
+
         </div>
 
-</footer>
-    
+    </footer>
+
 </body>
+
 </html>
