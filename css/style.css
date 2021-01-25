@@ -85,7 +85,7 @@ img {
 }
 
 .central-foto {
-    margin-top: 3rem;
+    padding-right: 2rem;
 }
 
 .contendor-central {
@@ -122,31 +122,28 @@ img {
     font-size: 3.5rem;
 }*/
 
-.central-presentacion h2 {
-    font-weight: 800;
-}
-
 .central-presentacion {
-    margin: 3rem 3rem;
+    margin: 2rem 2rem;
     text-align: justify;
     background-color: #0097e6;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 2rem;
     color: white;
-    font-size: 2.4rem;
+    font-size: 2.1rem;
     font-weight: 300;
     box-shadow: 10px 5px 5px black;
 }
 
 .central-presentacion h2 {
     margin: 0;
-    margin-left: 0px;
+    margin-left: 1rem;
     font-size: 3rem;
     text-align: left;
+    font-weight: 800;
 }
 
-.contendor-central h2 {
-    margin-left: 3rem;
+.contendor-central p {
+    margin: none;
 }
 
 .site-footer {
@@ -165,6 +162,11 @@ img {
     margin: 0;
     color: #ffffff;
     padding: 3rem 0;
+}
+
+.imagen-redes {
+    display: flex;
+    justify-content: space-between;
 }
 
 .imagen-redes .github {
