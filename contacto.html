@@ -43,29 +43,43 @@
     <main class="contenedor seccion contenido-centrado">
         <h2 class="fw-300 centrar-texto">Llena el Formulario de Contacto</h2>
 
-        <form class="FormContacto" action="">
+        <form action="formulario">
             <fieldset>
+                <legend>Contactanos llenando todos los campos</legend>
 
-                <legend>Informacion Personal</legend>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label for="">Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu nombre">
+                    </div>
 
-                <label for="nombre">Nombre</label>
-                <input type="text" id="Nombre" placeholder="Tu nombre" required>
+                    <div class="campo">
+                        <label for="">Telefono</label>
+                        <input class="input-text" type="tel" placeholder="Tu telefono">
 
-                <label for="email">E-mail</label>
-                <input type="email" id="email" placeholder="Tu correo electronico" required>
+                    </div>
 
-                <label for="telefono">Tu telefono</label>
-                <input type="tel" id="telefono" placeholder="Tu telefono" required>
+                    <div class="campo">
+                        <label for="">Correo</label>
+                        <input class="input-text" type="email" placeholder="Tu correo">
+                    </div>
 
+                    <div class="campo">
+                        <label for="">Mensaje</label>
+                        <textarea class="input-text"></textarea>
+                    </div>
+                </div>
 
+                <div class="alinear-derecha flex">
+                    <input class="boton boton-azul" type="submit" value="Enviar">
+                </div>
 
             </fieldset>
-
-            <input type="submit" value="Enviar" class=" boton boton-azul">
-
         </form>
 
-        <fieldset>
+
+
+        <fieldset class="MiContacto-Campo">
             <legend>Mi Contacto</legend>
 
             <div class="MiContacto">

@@ -2,6 +2,12 @@ html {
     font-size: 62.5%;
 }
 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
@@ -89,7 +95,7 @@ img {
 }
 
 .contendor-central {
-    margin-bottom: 20rem;
+    margin-bottom: 28rem;
 }
 
 @media (min-width: 768px) {
@@ -199,11 +205,13 @@ img {
     font-size: 5rem;
 }
 
-.fechas-puesto {
-    /* padding: 3rem 0; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+@media (min-width: 768px) {
+    .fechas-puesto {
+        /* padding: 3rem 0; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 h2 {
@@ -214,12 +222,12 @@ h2 {
     text-align: center;
     height: 10rem;
     width: 10rem;
-    padding: 2rem;
+    padding: 0;
 }
 
 .experiencia p {
     /*padding: 3rem;*/
-    margin: 0;
+    margin-bottom: 1.5rem;
 }
 
 ul {
@@ -251,6 +259,17 @@ label {
     color: white;
 }
 
+.formulario {
+    background-color: #0097e6;
+}
+
+.contenedor-campos {
+    padding: 2.5rem;
+}
+
+
+/*
+
 input[type="text"] {
     padding: 0.5rem;
     display: block;
@@ -279,6 +298,30 @@ input[type="tel"] {
     border: none;
 }
 
+*/
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+.campo label {
+    color: white;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.campo textarea {
+    height: 20rem;
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+
 .boton:hover {
     cursor: pointer;
 }
@@ -291,8 +334,20 @@ input[type="tel"] {
     padding: 1rem 3rem;
     margin-top: 3rem;
     display: inline-block;
+    width: 90%;
     text-align: center;
     border: none;
+}
+
+@media (min-width: 768px) {
+    .boton {
+        width: auto;
+    }
+}
+
+.MiContacto-Campo {
+    margin-top: 3rem;
+    margin-bottom: 15rem;
 }
 
 .MiContacto {
@@ -301,27 +356,38 @@ input[type="tel"] {
 }
 
 .TelCont {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    text-align: left;
 }
 
 .correo {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .TelCont {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .correo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
 }
 
 .MiContacto p {
     padding: 1rem;
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
+    text-align: left;
 }
 
 .MiContacto h1 {
     padding: 1rem;
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
+    text-align: left;
 }
