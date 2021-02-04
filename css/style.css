@@ -391,3 +391,28 @@ input[type="tel"] {
     color: white;
     text-align: left;
 }
+
+
+/* Pagina Agradecimiento */
+
+.titulo__gracias {
+    margin-bottom: 13rem;
+    font-size: 10rem;
+}
+
+.titulo__gracias h1 {
+    font-size: 7rem;
+}
+.Gracias {
+    background-color: #0097e6;
+    margin-bottom: 18rem;
+    color: white;
+    font-size: 5rem;
+    font-weight: 100;
+    text-align: center;
+    box-shadow: 10px 5px 5px black;
+}
+
+.Gracias p {
+    padding: 2rem;
+}
