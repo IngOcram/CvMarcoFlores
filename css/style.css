@@ -29,10 +29,11 @@ body {
     background-color: #525252;
     background-position: center center;
     min-height: 7.5rem;
+    padding-top: 1.5rem;
 }
 
 .nombre {
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 .navegacion {
@@ -407,6 +408,11 @@ input[type="tel"] {
 
 .titulo__gracias h1 {
     font-size: 7rem;
+    padding-top: 10rem;
+}
+
+.seccion {
+    padding-top: 4rem;
 }
 
 .Gracias {
