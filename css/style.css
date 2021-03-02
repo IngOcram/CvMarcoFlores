@@ -16,7 +16,7 @@ body {
 }
 
 .contenedor {
-    max-width: 120rem;
+    width: min(90%, 120rem);
     margin: 0 auto;
 }
 
@@ -403,6 +403,7 @@ input[type="tel"] {
 .titulo__gracias h1 {
     font-size: 7rem;
 }
+
 .Gracias {
     background-color: #0097e6;
     margin-bottom: 18rem;
