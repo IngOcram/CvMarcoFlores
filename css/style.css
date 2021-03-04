@@ -15,7 +15,8 @@ body {
     background-size: cover;
 }
 
-.contenedor {
+.contenedor,
+.formulario {
     width: min(90%, 120rem);
     margin: 0 auto;
 }
@@ -29,7 +30,7 @@ body {
     background-color: #525252;
     background-position: center center;
     min-height: 7.5rem;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 .nombre {
@@ -50,7 +51,7 @@ body {
     .barra {
         display: flex;
         justify-content: space-between;
-        padding-top: 3rem;
+        padding-top: 1rem;
         align-items: center;
     }
 }
@@ -97,11 +98,15 @@ img {
 }
 
 .central-foto {
-    padding-right: 2rem;
+    margin-bottom: 2rem;
 }
 
 .contendor-central {
     margin-bottom: 15rem;
+}
+
+.seccion {
+    margin-bottom: 5rem;
 }
 
 @media (min-width: 768px) {
@@ -111,9 +116,9 @@ img {
         width: 60rem;
     } */
     .contendor-central {
-        display: flex;
-        justify-content: space-between;
-        padding: 8rem 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
     }
 }
 
@@ -135,7 +140,6 @@ img {
 }*/
 
 .central-presentacion {
-    margin: 2rem 2rem;
     text-align: justify;
     background-color: #0097e6;
     padding: 1.5rem;
@@ -160,7 +164,8 @@ img {
 
 .site-footer {
     background-color: #525252;
-    margin: 0;
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
 
 .contenedor-footer {
@@ -271,6 +276,11 @@ label {
 
 .contenedor-campos {
     padding: 2.5rem;
+}
+
+.alinear-derecha {
+    max-width: 90%;
+    margin: 0;
 }
 
 
